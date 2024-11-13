@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>FoodieFanatix</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-1 fw-bold" href="index.html">FoodieFanatix</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link fw-medium"  href="about.html">About Me</a>
+                        <a class="nav-link active fw-medium"  href="contact.html">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container-sm">
+            <h1 class="text-center mt-5 mb-5 fw-bold fst-italic text-bg-primary p-2">Contact Me</h1>
+        </div>
+
+        <div class="container my-5">
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-medium">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="message" class="form-label fw-medium">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+
+        <footer class="bg-dark text-white text-center py-3">
+            <p class="mb-0 fw-medium">&copy; 2024 FoodFanatix. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+</body>
+</html>
